@@ -1,0 +1,42 @@
+.text-main{
+    color: #03fcb1 !important;
+}
+
+@media (max-width: 450px) {
+    .navigation-menu {
+        position: fixed;
+        bottom: 0 !important;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-link {
+        font-size: 10px;
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 450.1px) and (max-width: 767.98px) {
+    .ic-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .ic-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .ic-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ic-menu {
+        display: none;
+    }
+}
